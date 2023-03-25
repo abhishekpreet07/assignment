@@ -1,0 +1,145 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+#logo{
+    height: inherit;
+    width: 20%;
+    background-color: pink;
+}
+#side{
+    height: inherit;
+    width: 80%;
+    background-color: aqua;
+}
+#nav{
+    height: 50%;
+    width: 100%;
+    background-color: green;
+}
+#menu{
+    height: 50%;
+    width: 100%;
+    background-color: hsl(223, 75%, 56%);
+}
+#main{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+#lm{
+    height: inherit;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+}
+#rm{
+    height: inherit;
+    width: 50%;
+    background-color: cadetblue;
+    display: flex;
+}
+#lm1{
+    height: inherit;
+    width: 50%;
+    background-color: coral;
+}
+#lm2{
+    height: inherit;
+    width: 50%;
+    background-color: rgb(53, 139, 10);
+}
+#lm11{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(73, 224, 119);
+    background-image: url(https://html.com/wp-content/uploads/flamingo.webp) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+}
+#lm12{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(224, 166, 73);
+    background-image: url(https://ik.imagekit.io/ikmedia/backlit.jpg) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+    border-top: none;
+}
+#lm111{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(224, 83, 73);
+    background-image: url(https://i.stack.imgur.com/od6Ln.jpg) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+}
+#lm121{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(111, 73, 224);
+    background-image: url(https://html.com/wp-content/uploads/flamingo.webp) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+    border-top: none;
+}
+#rm1{
+    height: inherit;
+    width: 50%;
+    background-color: rgb(34, 0, 255);
+}
+#rm2{
+    height: inherit;
+    width: 50%;
+    background-color: rgb(200, 255, 172);
+}
+
+#rm11{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(51, 20, 144);
+    background-image: url(https://html.com/wp-content/uploads/flamingo.webp) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+}
+#rm12{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(224, 166, 73);
+    background-image: url(https://html.com/wp-content/uploads/flamingo.webp) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+    border-top: none;
+}
+#rm111{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(236, 200, 18);
+    background-image: url(https://html.com/wp-content/uploads/flamingo.webp) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+}
+#rm121{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(8, 6, 78);
+    background-image: url(https://html.com/wp-content/uploads/flamingo.webp) ;
+    background-size: 150px 100px;
+    border: 1px solid red;
+    border-top: none;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    background-color: darkgrey;
+    background-image: url(https://a0.anyrgb.com/pngimg/794/1910/floral-banner-ornament-floral-banner-floral-design-recreation-body-jewelry-line-art-flower-monochrome.png);
+    background-size: 800px 100px;
+    background-position: center;
+}
