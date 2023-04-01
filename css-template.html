@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>CSS Template</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            height: 100vh;
+            width: 100%;
+            background-image: linear-gradient(to right, blue,pink);
+        }
+        #head{
+            display: flex;
+        }
+        #box{
+            height: 500px;
+            width: 500px;
+            background-color: rgb(0, 211, 253);
+            transform: rotate(-45deg);
+            border-radius: 50px;
+            margin-left: -30px;
+            margin-top: -250px;
+            z-index: -100px;
+        }
+        #circle{
+            /* position: absolute; */
+            /* 
+            height: 100px;
+            width: 100px;
+            background-color: rgb(241, 119, 140);
+            border-radius: 50px;
+            margin: auto -80px auto 650px; */
+            height: 150px;
+            width: 150px;
+            background-color: rgb(253, 0, 148);
+            border-radius: 75%;
+            /* margin-left: 30px;
+            margin-top: 100px; */
+            margin: 70px -100px auto auto;
+        }
+        #nav{
+            top: 0px;
+            position: sticky;
+            height: 100px;
+            width: 100%;
+            /* background-color: aqua; */
+            display: flex;
+            /* margin-top: 10px; */
+            padding-top: 20px;
+            background-image: linear-gradient(to right, blue,pink);
+
+        }
+        /* #rlogo{
+        } */
+        .fa-bars{
+            margin-left: 10px;
+            z-index: 10px;
+        }
+        #icon{
+            display: flex;
+            height: inherit;
+            width: 30%;
+            justify-content: center;
+        }
+        #bar{
+            height: inherit;
+            width: 50%;
+            margin-left: 10px;
+            color: white;
+        }
+        #log{
+            height: inherit;
+            width: 50%;
+        }
+        #mega{
+            /* margin-left: 20px; */
+            font-size: 30px;
+            color: white;
+        }
+        .button{
+            padding: 15px 30px;
+            color: rgb(255, 255, 255);
+            border: 1px white solid;
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255,0);
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            /* size: 1px; */
+        }
+        .link{
+            padding: 2px;
+            margin-left: 2px;
+            font-size: 20px;
+        }
+        #head{
+            /* margin-left: 10px; */
+            justify-content: space-evenly;
+            height: inherit;
+            width: 50%;
+        }
+        h4{
+            color: white;
+        }
+        .fa-brands{
+            color: white;
+        }
+        #social{
+            display: flex;
+            /* margin-left: 60px; */
+            position: relative;
+            height: inherit;
+            width: 20%;
+            justify-content: end;
+        }
+        #social{
+            justify-content: space-evenly;
+        }
+        /* .fa-twitter{
+            margin-right: 1px;
+        }
+        .fa-instagram{
+            padding-left: 5px;
+            padding-right: 5px;
+        } */
+
+        h5{
+            size: 2px;
+        }
+        #hero{
+            width: 60%;
+            height: 500px;
+            /* background-color: azure; */
+            margin: -150px auto 0px auto;
+            display: flex;
+        }
+        #img{
+            height: inherit;
+            width: 30%;
+        }
+        #herotext{
+            position: relative;
+            height: inherit;
+            width: 70%;
+            justify-content: left;
+            margin: 100px auto 0px 10%;
+        }
+        #head1{
+            background: linear-gradient(to right, #f033b5 2%,#f2a2af 82%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: Montserrat;
+            font-weight: 800;
+        }   
+        #head2{
+            /* background: linear-gradient(to right, #f033b5 2%,#f2a2af 82%); */
+            color: white;
+            font-family: Montserrat;
+            font-weight: 800;
+        }   
+        #dec{
+            margin-top: auto;
+            color: white;
+        }
+        #button1{
+            padding: 15px 30px;
+            color: rgb(255, 255, 255);
+            border: 1px white solid;
+            border-radius: 30px;
+            background-color: rgb(0, 208, 255);
+            margin-top: 15px;
+        }
+        #button1:hover{
+            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to right, rgb(249, 212, 218), rgb(60, 60, 243));
+            box-shadow: 0 0 10px rgb(123, 33, 197);
+        }
+        .button:hover{
+            color: rgb(0, 0, 0);
+            background-image: linear-gradient(to right, rgb(249, 212, 218), rgb(60, 60, 243));
+            box-shadow: 0 0 10px rgb(123, 33, 197);
+        }
+        #content{
+            height: 100vh;
+            width: 100%;
+        }
+        #scroll{
+            /* position: relative; */
+            /* justify-content: right; */
+            /* align-items: end; */
+            margin-left: 45%;
+            margin-top: 10%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header id="nav">
+            <div id="icon">
+                <div id="bar"><i class="fa-solid fa-bars fa-2x"></i></div>
+                <div id="log"><a href=""> <h3 id="mega">MegaOne.</h3></a></div>
+            </div>
+            <div id="head">
+                <a href="#" class="link" id="a1">Home</a>
+                <a href="#" class="link" id="a2">About Us</a>
+                <a href="#" class="link" id="a3">Our Work</a>
+                <a href="#" class="link" id="a4">Clients</a>
+                <a href="#" class="link" id="a5">Our Blog</a>
+                <a href="#" class="link" id="a6">Contact Us</a>
+                <!-- <button class="button">Get A Quote</button> -->
+                <a href="#" id="btn"> <button class="button">Get A Quote</button></a>
+            </div>
+            <div id="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </header>
+        <!-- <div id="box"></div> -->
+        <div id="circle"></div>
+        <div id="hero">
+            <div id="img"><img src="vector-art-1.png" alt="vector-art-1"> </div>
+            <div id="herotext">
+                <h1 id="head1">Creative</h1>
+                <h1 id="head2">Digital Agency</h1>
+                <p id="dec">
+                    Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the
+                    industry’s standard dummy. Lorem Ipsum has been the industry’s standard dummy.
+                </p>
+                <button id="button1">Learn More</button>
+            </div>
+        </div>
+        <div id="scroll">Scroll Down <i class="fa-solid fa-arrow-down"></i></div>
+        <div id="content">
+        </div>
+    </main>
+</body>
+</html>

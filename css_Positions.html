@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #main{
+            height: 200vh;
+            width: 100%;
+            background-color: beige;
+        }
+        .box{
+            display: flex;
+        }
+        #static{
+            top: 50px;
+            margin-left: 20px;
+        }
+        #static1,#static2,#static3{
+            height: 100px;
+            width: 100px;
+            border: 1px red solid;
+            margin: 1px;
+            background-color: rgba(73, 73, 220,0.5);
+        }
+        #relative{
+            left: 50px;
+        }
+        #relative1,#relative2,#relative3{
+            height: 100px;
+            width: 100px;
+            border: 1px red solid;
+            margin: 1px;
+            background-color: rgba(61, 134, 55, 0.5);
+        }
+        #relative2{
+            position: relative;
+            margin-top: 20px;
+        }
+        #absolute{
+            left: 50px;
+        }
+        #absolute1,#absolute2,#absolute3{
+            height: 100px;
+            width: 100px;
+            border: 1px red solid;
+            margin: 1px;
+            background-color: rgba(38, 70, 209, 0.5);
+        }
+        #absolute2{
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 20px;
+            
+        }
+        #fixed{
+            left: 10px;
+            bottom: 10px;
+            position: fixed;
+        }
+        #fixed1,#fixed2,#fixed3{
+            height: 100px;
+            width: 100px;
+            border: 1px red solid;
+            margin: 1px;
+            background-color: rgba(213, 72, 206, 0.5);
+        }
+        #sticky{
+            left: 50px;
+            top: 5px;
+            position: sticky;
+            justify-content: center;
+        }
+        #sticky1,#sticky2,#sticky3{
+            height: 100px;
+            width: 100px;
+            border: 1px red solid;
+            margin: 1px;
+            background-color: rgba(15, 143, 190,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="box" id="static">
+            <div id="static1">static1</div>
+            <div id="static2">static2</div>
+            <div id="static3">static3</div>
+        </div>
+        <div class="box" id="sticky">
+            <div id="sticky1">sticky1</div>
+            <div id="sticky2">sticky2</div>
+            <div id="sticky3">sticky3</div>
+        </div>
+        <div class="box" id="relative">
+            <div id="relative1">relative1</div>
+            <div id="relative2">relative2</div>
+            <div id="relative3">relative3</div>
+        </div>
+        <div class="box" id="absolute">
+            <div id="absolute1">absolute1</div>
+            <div id="absolute2">absolute2</div>
+            <div id="absolute3">absolute3</div>
+        </div>
+        <div class="box" id="fixed">
+            <div id="fixed1">fixed1</div>
+            <div id="fixed2">fixed2</div>
+            <div id="fixed3">fixed3</div>
+        </div>
+    </div>
+</body>
+</html>
